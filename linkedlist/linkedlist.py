@@ -8,9 +8,6 @@ a=int(input("Enter the first number: "))
 b=int(input("Enter the second number: "))
 c=int(input("Enter the third number: "))
 d=int(input("Enter the fourth number: "))
-input = input("Please type 'B' if you wish to continue adding numbers")
-if input == b:
-  break
 
 Node1 = Node(a)
 Node2 = Node(b)

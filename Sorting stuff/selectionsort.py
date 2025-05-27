@@ -16,3 +16,4 @@ def selectionsort(data):
 
 selectionsort(data)
 print("Sorted data:", data)
+

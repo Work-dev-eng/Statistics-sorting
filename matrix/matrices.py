@@ -13,7 +13,7 @@ def input_matrix(name):
             print(f"Please enter exactly {cols} integers.")
             row = list(map(int, input(f"Row {i+1}: ").split()))
         matrix.append(row)
-    return np.array(matrix)
+    return np.data(matrix)
 
 
 a = input_matrix("A")
