@@ -1,5 +1,4 @@
-# docking.py - Calculator for Docker
-
+# CALCULATOR FIOR DOCKING 
 def add(x, y):
     return x + y
 
@@ -11,11 +10,11 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "Error: Division by zero"
+        return "Error: you entered 0 which is not divisible"
     return x / y
 
 def main():
-    print("🧮 Welcome to Dockerized Calculator")
+    print("🧮 Welcome to Calculator made for Docking puraposes")
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
